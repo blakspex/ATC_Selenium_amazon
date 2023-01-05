@@ -1,8 +1,15 @@
-# ATC_Selenium_amazon
-Amazon e-commerce automation in Selenium with Java-Maven-Cucumber-TestNG
-Import the project in IDE
-Right Click on project and Update
-Open MainRunner file
-Right Click -> Run as -> TestNG
-Wait for execution to complete and reports to be generated
-Open index.html or check log in console
+# Amazon_Login_Cucumber
+
+Acceptance criteria implementation
+Using Cucumber (Java) and Selenium/Webdriver, implement the following tests
+on the Chrome browser.
+Future: Amazon Login
+Scenario: Valid login
+Given I am a user of amazon.com
+When I log in using valid credentials
+Then I should be logged in
+
+Scenario: Invalid login
+Given I am a user of amazon.com
+When I log in using invalid credentials
+Then I should not be logged in
